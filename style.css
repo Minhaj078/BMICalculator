@@ -1,0 +1,92 @@
+/* Apply a smooth and clean font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff, #d3e0ff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container */
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+.heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Style input fields and labels */
+form p {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    font-weight: 500;
+    color: #444;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Style the button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Result box */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+/* Weight guide box */
+#weight-guide {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 6px;
+}
+
+#weight-guide h3 {
+    margin-top: 0;
+    color: #4a90e2;
+}
+
+#weight-guide p {
+    margin: 5px 0;
+    color: #555;
+}
